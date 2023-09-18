@@ -2,7 +2,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 # Cargar el archivo DXF utilizando geopandas
-data = gpd.read_file('s.dxf')
+data = gpd.read_file('archivo.dxf')
 
 # Obtener el límite máximo y mínimo de las coordenadas X e Y
 xmin, ymin, xmax, ymax = data.total_bounds

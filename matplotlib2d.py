@@ -3,7 +3,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 # Carga el archivo DXF usando GeoPandas
-gdf = gpd.read_file('Curvas.dxf')
+gdf = gpd.read_file('archivo.dxf')
 
 # Crea la figura y los ejes
 fig, ax = plt.subplots()

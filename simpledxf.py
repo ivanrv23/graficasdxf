@@ -2,7 +2,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 # Abrir el archivo DXF
-plano = gpd.read_file('Curvas.dxf')
+plano = gpd.read_file('archivo.dxf')
 
 # Crear el gráfico
 ax = plano.plot()

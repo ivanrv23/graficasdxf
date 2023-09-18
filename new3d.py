@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # Cargar el archivo DXF
-data = gpd.read_file('TOPO.dxf')
+data = gpd.read_file('archivo.dxf')
 
 # Calcular los límites de las coordenadas
 xmin = ymin = zmin = float('inf')
