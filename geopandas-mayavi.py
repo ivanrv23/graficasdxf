@@ -2,7 +2,7 @@ import geopandas as gpd
 from mayavi import mlab
 
 # Paso 1: Carga del archivo DXF en Geopandas
-archivo_dxf = 'archivo.dxf'
+archivo_dxf = 'TAJO.dxf'
 gdf = gpd.read_file(archivo_dxf)
 
 mlab.figure(bgcolor=(1, 1, 1))  # Configura el fondo blanco
