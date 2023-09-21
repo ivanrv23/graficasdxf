@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import mpld3
 
 # Abrir el archivo DXF
-plano = gpd.read_file('TOPO.dxf')
+plano = gpd.read_file('Surface.dxf')
 
 # Crear el gráfico con ajuste de escala, líneas delgadas y colores diferenciados
 fig, ax = plt.subplots(figsize=(8, 8))  # Tamaño de la figura ajustable según tus necesidades

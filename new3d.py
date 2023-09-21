@@ -37,7 +37,7 @@ ax = fig.add_subplot(111, projection='3d')
 for geometry in data.geometry:
     if geometry.geom_type == 'LineString':
         x, y, z = zip(*geometry.coords)
-        ax.plot(x, y, z,color='black')
+        ax.plot(x, y, z,color='gray')
     elif geometry.geom_type == 'Polygon':
         x, y, z = zip(*geometry.exterior.coords)
         ax.plot(x, y, z,color='red')

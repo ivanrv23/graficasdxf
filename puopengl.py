@@ -4,7 +4,7 @@ from OpenGL.GLUT import *
 from OpenGL.GLU import *
 import pygame
 from pygame.locals import *
-data = gpd.read_file('s.dxf')
+data = gpd.read_file('Surface.dxf')
 def render():
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
     glLoadIdentity()

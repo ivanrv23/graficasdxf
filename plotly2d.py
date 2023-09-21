@@ -2,7 +2,7 @@ import geopandas as gpd
 import plotly.graph_objects as go
 
 # Cargar el archivo DXF utilizando GeoPandas
-archivo_dxf = "Curvas.dxf"
+archivo_dxf = "Surface.dxf"
 datos = gpd.read_file(archivo_dxf)
 
 # Crear una figura de Plotly

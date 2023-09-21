@@ -4,7 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
 # Cargar el archivo DXF utilizando geopandas
-data = gpd.read_file('TOPO.dxf')
+data = gpd.read_file('Surface.dxf')
 
 # Obtener las coordenadas X, Y y Z de las geometrías
 x = []
